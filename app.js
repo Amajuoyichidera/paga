@@ -1,7 +1,7 @@
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
   }
-
+  
 
   let slideIndex = 0;
 showSlides();
@@ -19,8 +19,6 @@ function showSlides() {
 }
 
 
-
-
   window.addEventListener("scroll", () => {
     if (window.scrollY > 700) {
       isBackToTopRendered = true;
@@ -32,9 +30,7 @@ function showSlides() {
   });
 
 
-
   window.addEventListener('scroll', reveal);
-
 
   function reveal () {
       var reveals = document.querySelectorAll('.reveal');
